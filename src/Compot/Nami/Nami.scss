@@ -1,0 +1,72 @@
+.nami .container {
+  width: 1280px;
+  height: 577px;
+  display: flex;
+  justify-content: center;
+  background-color: #2c343e;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 12px;
+  margin-bottom: 300px;
+}
+
+.nami__list {
+    display: flex;
+    gap: 30px;
+}
+
+.nami__heading {
+  font-family: "Fraunces";
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fefcf7;
+  padding-top: 200px;
+  padding-bottom: 40px;
+}
+
+.nami__text {
+  width: 540px;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fefcf7;
+  margin-left: 350px;
+}
+
+.nami__item {
+    width: 350px;
+    height: 382px;
+    text-align: center;
+    background-color: #0E8784;
+    padding: 70px 40px;
+    border-radius: 6px;
+    transform: translateY(50px);
+    margin-left: 15px;
+}
+
+.nami__title {
+  font-family: "Fraunces";
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.nami__comment {
+  width: 255px;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fefcf7;
+}

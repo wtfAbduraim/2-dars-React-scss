@@ -1,0 +1,40 @@
+.footer {
+    background-color: #2C343E;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__list {
+    width: 1250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__info {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__item {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__link {
+    font-family: "Barlow";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #83888F;
+    list-style: none;
+    text-decoration: none;
+
+    &:hover {
+        color: black;
+      }
+}
